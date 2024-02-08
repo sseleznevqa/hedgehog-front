@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+img#mark {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  display: block;
+  z-index: 400;
+}
