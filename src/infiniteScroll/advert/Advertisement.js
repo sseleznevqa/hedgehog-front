@@ -100,7 +100,7 @@ const Advertisement = ({
         </div>
       )}
 
-      {(!my && suggesting) && (
+      {(!my) && (
         <Button variant="contained" color="primary" style={{ marginTop: 20 }} onClick={() => handleInterested(strict, free, images[0], desired, addition, title)}>
           Interested
         </Button>
